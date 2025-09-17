@@ -15,11 +15,11 @@ This project provides a **personal shell-like environment** where users can perf
 The **Personal CMD** project is built to strengthen knowledge of **Operating System concepts** and **System Programming in C**.  
 
 It demonstrates:
-- **Low-level file handling** using system calls (`open`, `read`, `write`, `creat`, `unlink`).
-- **Directory management** (`mkdir`, `rmdir`).
-- **Command parsing** using string manipulation and `sscanf`.
-- **Error handling** with predefined error codes.
-- Practical exposure to how **shells/terminals work internally**.
+- **Low-level file handling** using system calls (`open`, `read`, `write`, `creat`, `unlink`).  
+- **Directory management** (`mkdir`, `rmdir`).  
+- **Command parsing** using string manipulation and `sscanf`.  
+- **Error handling** with predefined error codes.  
+- Practical exposure to how **shells/terminals work internally**.  
 
 ---
 
@@ -45,12 +45,14 @@ Supported commands in the terminal:
 ---
 
 ## 📂 Project Structure
+```
 personal-cmd/
-│── cmd11.c # Source code
-│── Makefile # For building with make
-│── .gitignore # Ignored files
-│── README.md # Documentation
-│── LICENSE # License file
+│── cmd11.c       # Source code
+│── Makefile      # For building with `make`
+│── .gitignore    # Ignored files
+│── README.md     # Documentation
+│── LICENSE       # License file
+```
 
 ---
 
@@ -59,20 +61,26 @@ personal-cmd/
 ### Compile
 ```bash
 gcc cmd11.c -o personal_cmd
+```
 
-Run
+### Run
+```bash
 ./personal_cmd
+```
+---
+
+## 📖 Learning Outcomes
+- Working with **POSIX system calls** instead of standard library functions.  
+- File descriptors, permissions, and error handling.  
+- Basics of **command interpreters / shells**.  
+- Experience with **string parsing** and **system commands** in C.  
 
 ---
 
-📖 Learning Outcomes
-
-Working with POSIX system calls instead of standard library functions.
-
-File descriptors, permissions, and error handling.
-
-Basics of command interpreters / shells.
-
-Experience with string parsing and system commands in C.
+## 👨‍💻 Author
+**Ritesh Kurambhatti**  
 
 ---
+
+## 📜 License
+MIT License © 2025 Ritesh Kurambhatti
