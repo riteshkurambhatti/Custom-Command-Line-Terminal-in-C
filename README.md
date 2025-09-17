@@ -1,5 +1,11 @@
 # Personal CMD (Custom Command-Line Terminal in C)
 
+![C](https://img.shields.io/badge/language-C-blue.svg)
+![OS](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+
 A **custom command-line interface (CLI) written in C**, designed to mimic basic terminal commands such as `ls`, `pwd`, `mkdir`, `touch`, `read`, `write`, `delete`, and more.  
 This project provides a **personal shell-like environment** where users can perform file and directory operations with error handling and built-in help.
 
@@ -39,10 +45,10 @@ Supported commands in the terminal:
 ---
 
 ## 📂 Project Structure
-
 personal-cmd/
 │── cmd11.c # Source code
-│── .gitignore
+│── Makefile # For building with make
+│── .gitignore # Ignored files
 │── README.md # Documentation
 │── LICENSE # License file
 
@@ -54,12 +60,19 @@ personal-cmd/
 ```bash
 gcc cmd11.c -o personal_cmd
 
+Run
 ./personal_cmd
 
-👨‍💻 Author
+---
 
-Ritesh Kurambhatti
+📖 Learning Outcomes
 
-📜 License
+Working with POSIX system calls instead of standard library functions.
 
-MIT License © 2025 Ritesh Kurambhatti
+File descriptors, permissions, and error handling.
+
+Basics of command interpreters / shells.
+
+Experience with string parsing and system commands in C.
+
+---
